@@ -12,7 +12,7 @@ import java.util.Date;
  */
  class Estudantes {
           
-    private String nome;
+    private static String nome;
     private Date dataNascimento;
     private String cpf;
     private char genero;
@@ -29,11 +29,11 @@ import java.util.Date;
         return idade;
     }
     
-    public String getNome(){
+    public static String getNome(){
         return nome;
     }
     
-    public void setNome(String nome){
+    public static void setNome(String nome){
         nome =nome;
     }
     public Date getDataNascimento(){
@@ -66,6 +66,4 @@ import java.util.Date;
     public void setEmail (){
         email = email;
     }
-    
-    
-}
+ }
