@@ -10,7 +10,7 @@ import java.util.Date;
  *
  * @author aluno
  */
-public class Estudantes {
+ class Estudantes {
           
     private String nome;
     private Date dataNascimento;
@@ -23,7 +23,7 @@ public class Estudantes {
         nome = "Nobody";
     }
     
-    public int obterIdade(Date hoje){
+    private int obterIdade(Date hoje){
         int idade = 0;
         //logica de calculo de idade
         return idade;
@@ -45,4 +45,27 @@ public class Estudantes {
     public String getCpf (){
         return cpf;
     }
+    public void setCpf (){
+        cpf = cpf;
+    }
+    public char getGenero(){
+        return genero;
+    }
+    public void setGenero(){
+        genero = genero;
+    }
+    public String getMatricula(){
+       return matricula; 
+}
+    public void setMatricula(){
+        matricula = matricula;
+    }
+    public String getEmail (){
+        return email;
+}
+    public void setEmail (){
+        email = email;
+    }
+    
+    
 }
