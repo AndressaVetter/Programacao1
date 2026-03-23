@@ -40,11 +40,11 @@ import java.util.Date;
         return nome;
     }
     
-    public void setNome(String nome){
-        nome =nome;
+    public void setNome(String _nome){
+        nome = _nome;
     }
-    public void setMatricula(String digito){
-    digito =digito;
+    public void setMatricula(String _digito){
+    digito = _digito;
     }
     public String getMatricula(){
         return String.valueOf(anoIngresso)+String.valueOf(semestre)+digito;
@@ -52,50 +52,50 @@ import java.util.Date;
     public Date getDataNascimento(){
         return dataNascimento;
     }
-    public void setDataNascimento(Date dataNascimento){
-        dataNascimento = dataNascimento;  
+    public void setDataNascimento(Date _dataNascimento){
+        dataNascimento = _dataNascimento;  
     }
     public String getCpf (){
         return cpf;
     }
-    public void setCpf (){
-        cpf = cpf;
+    public void setCpf (String _cpf){
+        cpf = _cpf;
     }
     public char getGenero(){
         return genero;
     }
-    public void setGenero(){
-        genero = genero;
+    public void setGenero(char _genero){
+        genero = _genero;
     }
     public String getEmail (){
         return email;
 }
-    public void setEmail (){
-        email = email;
+    public void setEmail (String _email){
+        email = _email;
     }
     public int setTelefone(){
         return telefone;
  }
-    public void getTelefone (){
-        telefone = telefone;
+    public void getTelefone (int _telefone){
+        telefone = _telefone;
     }
     public String setSituacaoAcademica(){
         return situacaoAcademica;
     }
-    public void getSituacaoAcademica(){
-        situacaoAcademica = situacaoAcademica;
+    public void getSituacaoAcademica(String _situacaoAcademica){
+        situacaoAcademica = _situacaoAcademica;
     }
     public int setAnosIngresso (){
         return anoIngresso;
     }
-    public void getAnosIngresso(){
-      anoIngresso = anoIngresso;   
+    public void getAnosIngresso(int _anosIngresso){
+      anoIngresso = _anosIngresso;   
     }
     public int setSementreIngresso(){
         return semestreIngresso;
     }
-    public void getSementreIngresso(){
-        semestreIngresso = semestreIngresso;
+    public void getSementreIngresso(int _semestreIngresso){
+        semestreIngresso = _semestreIngresso;
  }
     
  }
