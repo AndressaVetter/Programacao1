@@ -10,5 +10,9 @@ package com.mycompany.programacao1;
  */
 public class Associacao {
 
+//* disciplina = composição
+//* professor = agregação
+//* aluno = agregação
+
     
 }
