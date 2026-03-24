@@ -25,10 +25,10 @@ public class Professor {
         nome = "Nobody";
         
     }
-    public int getSIAPE(){
+    public int getSiape(){
         return siape;
     }
-    public void setSIAPE(int _siape){
+    public void setSiape(int _siape){
     siape = _siape;
     }
     public String getEmail(){
