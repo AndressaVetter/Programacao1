@@ -97,5 +97,11 @@ import java.util.Date;
     public void getSementreIngresso(int _semestreIngresso){
         semestreIngresso = _semestreIngresso;
  }
+    public String getNivelEnsino (){
+        return nivelEnsino;
+    }
+    public void setNivelEnsino (String _nivelEnsino){
+        nivelEnsino = _nivelEnsino;
+    }
     
  }
