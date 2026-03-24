@@ -16,7 +16,7 @@ public class Turma {
     
     
     
-//* disciplina = composição
+//* disciplina = composição - 1..*
 //* professor = agregação
 //* aluno = composição - 1..*
     //* Turma = 1
